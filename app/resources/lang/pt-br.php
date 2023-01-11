@@ -1,17 +1,27 @@
 <?php
-// Pages Login
-define('_NAME', 'Name');
-define('_PASSWORD', 'Senha');
+
+define('_URL', 'http://localhost/api');
+// PADROES FORMULARIOS
+define('_FORM_PASSWORD',                    'Digite sua Senha');
+define('_FORM_REMEMBER_ME',                 'Lembra-me');
+define('_FORM_EMAIL',                       'Digite seu Email');
+define('_FORM_SUBMIT',                      'Enviar');
+define('_FORM_NEXT',                        'Próximo');
+define('_FORM_REGISTER_ACCOUNT',            'Registrar Conta');
+define('_FORM_PASSWORD_FORGOT',             'Esqueceu senha?');
+define('_FORM_ACCESS_RESTRICT',             'Acesso restrito');
+// NOTIFICAÇÔES
+define('_NOT_REGISTER_SUCCESS', 'Registro com Sucesso!');
 // _HEADER_AND_SIDEBAR
-define('_SITE_TITLE', 'NEWSER');
-define('_APP_NAME', 'NEWSER-API');
-define('_DASHBOARD', 'Dashboard');
-define('_AUTOREPLY', 'Resposta automática');
-define('_PHONE_NUMBERS', 'Números de telefone');
-define('_DEVICE_CONTACTS', 'Contatos do dispositivo');
-define('_SCHEDULED_MESSAGES', 'Mensagens programadas');
-define('_SEND_MESSAGE', 'Enviar Mensagem');
-define('_REST_API', 'Rest API');
+define('_SITE_TITLE',                       'NEWSER');
+define('_APP_NAME',                         'NEWSER');
+define('_DASHBOARD',                        'DASHBOARD');
+define('_AUTOREPLY',                        'Resposta automática');
+define('_PHONE_NUMBERS',                    'Números de telefone');
+define('_DEVICE_CONTACTS',                  'Contatos do dispositivo');
+define('_SCHEDULED_MESSAGES',               'Mensagens programadas');
+define('_SEND_MESSAGE',                     'Enviar Mensagem');
+define('_REST_API',                         'Rest API');
 // _PAINEL DE CONTROLE
 define('_SAVED_PHONE', 'Telefone salvo');
 define('_SENT_MESSAGES', 'Mensagens enviadas');
@@ -95,8 +105,6 @@ define('_PHONE_INCLUDE_COUNTRY', 'Telefone # inclui código do país');
 define('_PHONE_MAKE_SURE_SCANNED', 'Certifique-se de que o telefone seja verificado e conectado');
 define('_PHONE_NOT_AVAILABLE', 'O telefone já está no banco de dados');
 define('_PLEASE_REFRESH_TO_RESCAN', 'Atualize para verificar novamente');
-define('_REGISTER_ACCOUNT', 'Registrar Conta');
-define('_REGISTER_SUCCESS', 'Registro com Sucesso!');
 define('_RESEND', 'Reenviar');
 define('_RESPONSE', 'Response');
 define('_RESPONSE_MEDIA', 'Response Media');
