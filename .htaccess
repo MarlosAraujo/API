@@ -1,6 +1,6 @@
 # HABILITAR TUDO PARA WRITE
- RewriteEngine on
+RewriteEngine on
 
 # REGRA DE REWIRTE TUDO PRA INDEX
- RewriteCond %{REQUEST_FILENAME} !-f
- RewriteRule ^(.*)$ index.php [QSA,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php [QSA,NC]
