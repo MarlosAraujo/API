@@ -13,6 +13,7 @@ $objRouter->get('/',[
 
 $objRouter->get('/login',[
     function(){
+        //return new Response(200,Site\Home::getHome());
         return new Response(200,Login::getLogin());
     }
 ]);
@@ -22,5 +23,12 @@ $objRouter->get('/login',[
 $objRouter->get('/logout',[
     function(){
         return new Response(200,Site\Home::getHome());
+    }
+]);
+
+// Definição de Rotas
+$objRouter->get('/entity/{idEntity}/{acao}',[
+    function($idEntity, $acao){
+        return new Response(200,'Entitdade: '.$idEntity.' - '.$acao);
     }
 ]);
